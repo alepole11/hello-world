@@ -6,11 +6,11 @@ int main(){
   int n1, n2;
   cin>>n1>>n2;
   cout<<"Scegli quale operazione svolgere: \n1. Somma\n2. Sottrazione\nScelta: ";
-  int risposta;
+  int scelta; //era risposta, cambiato come suggerito nella review
   cin>>risposta;
-  if(risposta == 1){
+  if(scelta == 1){	//era risposta, cambiato come suggerito nella review
 	cout<<"Somma: "<<n1+n2;
-  }else if(risposta == 2){
+  }else if(scelta == 2){	//era risposta, cambiato come suggerito nella review
 	cout<<"Sottrazione: "<<n1-n2;
   }else{
 	cout<<"Scelta non valida.";
